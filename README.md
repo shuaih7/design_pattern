@@ -1,2 +1,2 @@
 # java_development
-Explore deeper on java!
+Explore deeper for java!
