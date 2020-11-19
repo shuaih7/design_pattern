@@ -1,7 +1,6 @@
 # Design Pattern - Based on the book 《设计模式之禅》
 
-bilibili 课程[网址](https://www.bilibili.com/video/BV1bJ411v7zC?p=6)
-
+相关课程参考 bilibili [课程网址](https://www.bilibili.com/video/BV1bJ411v7zC?p=6)
 
 ## 六大设计原则 (Six major degin principles)
 
@@ -43,15 +42,15 @@ bilibili 课程[网址](https://www.bilibili.com/video/BV1bJ411v7zC?p=6)
 
 ### 5. 接口隔离原则（Interface Segregation Principle) ###
 
-客户端不应该依赖其不需要的接口，一个类对另一个类的依赖应建立在最小的接口上。
+客户端***不应该依赖其不需要的接口***，一个类对另一个类的依赖应建立在最小的接口上。
 
 接口隔离原则和单一职责都是为了提高类的内聚性、降低它们之间的耦合性，体现了封装的思想，但两者是不同的：
     a. 单一职责原则注重的是职责，而接口隔离原则注重的是对接口依赖的隔离。
     b. 单一职责原则主要是约束类，它针对的是程序中的实现和细节；接口隔离原则主要约束接口，主要针对抽象和程序整体框架的构建。
 
-### 6. 开闭原则（Open Closed Principle ###
+### 6. 开闭原则（Open Closed Principle) ###
 
-对扩展开放，对修改关闭。开闭原则的含义是：当应用的需求改变时，在不修改软件实体的源代码或者二进制代码的前提下，可以扩展模块的功能，使其满足新的需求。
+***对扩展开放***，对修改关闭。开闭原则的含义是：当应用的需求改变时，在不修改软件实体的源代码或者二进制代码的前提下，可以扩展模块的功能，使其满足新的需求。
 
 
 
